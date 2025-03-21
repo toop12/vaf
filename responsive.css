@@ -1,0 +1,806 @@
+@media  only  screen and (max-width: 500px) {
+    body {
+        background-image: url(img/IMG-20250320-WA0006.jpg);
+        background-size: cover;
+        overflow-x: hidden;
+        min-width: 200px; /* الحد الأدنى للعرض */
+        max-width: 500px; /* الحد الأقصى للعرض */
+        min-height: 200px; /* الحد الأدنى للارتفاع */
+        max-height: 400px; /* الحد الأقصى للارتفاع */
+
+    }
+    .b1 {
+        position: relative;
+        top: 10px;
+        left: 20px;
+    }
+    #t1 {
+        color: white;
+        font-size: 15px;
+        text-shadow: 0px 0px 10px white;
+        position: absolute;
+        left: 50px;
+        top: 10px;
+    }
+    #t1:hover {
+        color: rgb(255, 183, 10);
+        text-shadow: 0px 0px 10px rgb(255, 183, 10);
+    }
+    .img-1 {
+        width: 50px;
+    }
+    .icon {
+        width: 40px;
+        position: absolute;
+        top: 28px;
+        left: 430px;
+    }
+    .icon:hover {
+        transform: scale(1.1);
+    }
+    .icon:active {
+        transform: scale(1.2);
+    }
+    header {
+        display: none;
+        position: relative;
+        left: 670px;
+        top: -25px;
+    }
+    a {
+        display: none;
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        transition: .5s ease-in-out;
+    }
+    a:hover {
+        color: red;
+        text-shadow: 0px 0px 10px red;
+    }
+    .a4 {
+        position: absolute;
+        left: 330px;
+    }
+    .a3 {
+        position: absolute;
+        left: 190px;
+    }
+    .a2 {
+        position: absolute;
+        left: 100px;
+    }
+    .img-2 {
+        width: 300px;
+        position: absolute;
+        top: -10px;
+        left: 100px;
+        transition: .3s ease-out;
+        animation: r1 3s ease-in-out;
+        transform: scale(0.9);
+    }
+    .img-2:hover {
+        transform: scale(1);
+        filter: drop-shadow(2px 2px 10px rgb(255, 183, 10));
+    }
+    .b2 {
+        position: relative;
+        left: 140px;
+        top: 280px;
+        transform: scale(0.9);
+    }
+    #t2 {
+        color: rgb(255, 183, 10);
+        font-size: 40px;
+        text-shadow: 0px 0px 10px rgb(255, 183, 10);
+        animation: r2 3s ease-in-out;
+    }
+    #t3 {
+        width: 250px;
+        font-size: 20px;
+        color: rgb(255, 183, 10);
+        text-shadow: 0px 0px 10px rgb(255, 183, 10);
+        animation: r3 3s ease-in-out;
+    }
+    .button-1 {
+        padding: 15px 60px;
+        font-size: 28px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(255, 183, 10);
+        background-color: rgb(255, 183, 10);
+        color: white;
+        position: absolute;
+        left: 100px;
+        transition: .3s ease-in-out;
+        animation: r4 3s ease-in-out;
+        transform: scale(0.8);
+    }
+    .button-1:hover {
+        transform: scale(0.9);
+        filter: drop-shadow(2px 2px 10px rgb(255, 183, 10));
+    }
+    .button-1:active {
+        transform: scale(1.2);
+    }
+    @keyframes r1 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes r2 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes r3 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes r4 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
+@media  only  screen and (max-width: 400px) {
+    body {
+        background-image: url(img/IMG-20250320-WA0006.jpg);
+        background-size: cover;
+        overflow-x: hidden;
+        min-width: 200px; /* الحد الأدنى للعرض */
+        max-width: 500px; /* الحد الأقصى للعرض */
+        min-height: 100px; /* الحد الأدنى للارتفاع */
+        max-height: 300px; /* الحد الأقصى للارتفاع */
+    }
+    .b1 {
+        position: relative;
+        top: 10px;
+        left: 20px;
+    }
+    #t1 {
+        color: white;
+        font-size: 15px;
+        text-shadow: 0px 0px 10px white;
+        position: absolute;
+        left: 50px;
+        top: 10px;
+    }
+    #t1:hover {
+        color: rgb(255, 183, 10);
+        text-shadow: 0px 0px 10px rgb(255, 183, 10);
+    }
+    .img-1 {
+        width: 50px;
+    }
+    .icon {
+        width: 40px;
+        position: absolute;
+        top: 28px;
+        left: 350px;
+    }
+    .icon:hover {
+        transform: scale(1.1);
+    }
+    .icon:active {
+        transform: scale(1.2);
+    }
+    header {
+        display: none;
+        position: relative;
+        left: 670px;
+        top: -25px;
+    }
+    a {
+        display: none;
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        transition: .5s ease-in-out;
+    }
+    a:hover {
+        color: red;
+        text-shadow: 0px 0px 10px red;
+    }
+    .a4 {
+        position: absolute;
+        left: 330px;
+    }
+    .a3 {
+        position: absolute;
+        left: 190px;
+    }
+    .a2 {
+        position: absolute;
+        left: 100px;
+    }
+    .img-2 {
+        width: 300px;
+        position: absolute;
+        top: -10px;
+        left: 100px;
+        transition: .3s ease-out;
+        animation: r1 3s ease-in-out;
+        transform: scale(0.9);
+    }
+    .img-2:hover {
+        transform: scale(1);
+        filter: drop-shadow(2px 2px 10px rgb(255, 183, 10));
+    }
+    .b2 {
+        position: relative;
+        left: 140px;
+        top: 280px;
+        transform: scale(0.9);
+    }
+    #t2 {
+        color: rgb(255, 183, 10);
+        font-size: 40px;
+        text-shadow: 0px 0px 10px rgb(255, 183, 10);
+        animation: r2 3s ease-in-out;
+    }
+    #t3 {
+        width: 250px;
+        font-size: 20px;
+        color: rgb(255, 183, 10);
+        text-shadow: 0px 0px 10px rgb(255, 183, 10);
+        animation: r3 3s ease-in-out;
+    }
+    .button-1 {
+        padding: 15px 60px;
+        font-size: 28px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(255, 183, 10);
+        background-color: rgb(255, 183, 10);
+        color: white;
+        position: absolute;
+        left: 100px;
+        transition: .3s ease-in-out;
+        animation: r4 3s ease-in-out;
+        transform: scale(0.8);
+    }
+    .button-1:hover {
+        transform: scale(0.9);
+        filter: drop-shadow(2px 2px 10px rgb(255, 183, 10));
+    }
+    .button-1:active {
+        transform: scale(1.2);
+    }
+    @keyframes r1 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes r2 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes r3 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes r4 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
+@media  only  screen and (max-width: 375px) {
+    body {
+        background-image: url(img/IMG-20250320-WA0006.jpg);
+        background-size: cover;
+        overflow-x: hidden;
+        min-width: 200px; /* الحد الأدنى للعرض */
+        max-width: 500px; /* الحد الأقصى للعرض */
+        min-height: 100px; /* الحد الأدنى للارتفاع */
+        max-height: 300px; /* الحد الأقصى للارتفاع */
+    }
+    .b1 {
+        position: relative;
+        top: 10px;
+        left: 20px;
+    }
+    #t1 {
+        color: white;
+        font-size: 15px;
+        text-shadow: 0px 0px 10px white;
+        position: absolute;
+        left: 50px;
+        top: 10px;
+    }
+    #t1:hover {
+        color: rgb(255, 183, 10);
+        text-shadow: 0px 0px 10px rgb(255, 183, 10);
+    }
+    .img-1 {
+        width: 50px;
+    }
+    .icon {
+        width: 40px;
+        position: absolute;
+        top: 28px;
+        left: 350px;
+    }
+    .icon:hover {
+        transform: scale(1.1);
+    }
+    .icon:active {
+        transform: scale(1.2);
+    }
+    header {
+        display: none;
+        position: relative;
+        left: 670px;
+        top: -25px;
+    }
+    a {
+        display: none;
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        transition: .5s ease-in-out;
+    }
+    a:hover {
+        color: red;
+        text-shadow: 0px 0px 10px red;
+    }
+    .a4 {
+        position: absolute;
+        left: 330px;
+    }
+    .a3 {
+        position: absolute;
+        left: 190px;
+    }
+    .a2 {
+        position: absolute;
+        left: 100px;
+    }
+    .img-2 {
+        width: 300px;
+        position: absolute;
+        top: -10px;
+        left: 20px;
+        transition: .3s ease-out;
+        animation: r1 3s ease-in-out;
+        transform: scale(0.9);
+    }
+    .img-2:hover {
+        transform: scale(1);
+        filter: drop-shadow(2px 2px 10px rgb(255, 183, 10));
+    }
+    .b2 {
+        position: relative;
+        left: 40px;
+        top: 280px;
+        transform: scale(0.9);
+    }
+    #t2 {
+        color: rgb(255, 183, 10);
+        font-size: 40px;
+        text-shadow: 0px 0px 10px rgb(255, 183, 10);
+        animation: r2 3s ease-in-out;
+    }
+    #t3 {
+        width: 250px;
+        font-size: 20px;
+        color: rgb(255, 183, 10);
+        text-shadow: 0px 0px 10px rgb(255, 183, 10);
+        animation: r3 3s ease-in-out;
+    }
+    .button-1 {
+        padding: 15px 60px;
+        font-size: 28px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(255, 183, 10);
+        background-color: rgb(255, 183, 10);
+        color: white;
+        position: absolute;
+        left: 100px;
+        transition: .3s ease-in-out;
+        animation: r4 3s ease-in-out;
+        transform: scale(0.8);
+    }
+    .button-1:hover {
+        transform: scale(0.9);
+        filter: drop-shadow(2px 2px 10px rgb(255, 183, 10));
+    }
+    .button-1:active {
+        transform: scale(1.2);
+    }
+    @keyframes r1 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes r2 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes r3 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes r4 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
+@media  only  screen and (max-width: 320px) {
+    body {
+        background-image: url(img/IMG-20250320-WA0006.jpg);
+        background-size: cover;
+        overflow-x: hidden;
+        min-width: 200px; /* الحد الأدنى للعرض */
+        max-width: 500px; /* الحد الأقصى للعرض */
+        min-height: 100px; /* الحد الأدنى للارتفاع */
+        max-height: 300px; /* الحد الأقصى للارتفاع */
+    }
+    .b1 {
+        position: relative;
+        top: 10px;
+        left: 20px;
+    }
+    #t1 {
+        color: white;
+        font-size: 15px;
+        text-shadow: 0px 0px 10px white;
+        position: absolute;
+        left: 50px;
+        top: 10px;
+    }
+    #t1:hover {
+        color: rgb(255, 183, 10);
+        text-shadow: 0px 0px 10px rgb(255, 183, 10);
+    }
+    .img-1 {
+        width: 50px;
+    }
+    .icon {
+        width: 40px;
+        position: absolute;
+        top: 28px;
+        left: 430px;
+    }
+    .icon:hover {
+        transform: scale(1.1);
+    }
+    .icon:active {
+        transform: scale(1.2);
+    }
+    header {
+        display: none;
+        position: relative;
+        left: 670px;
+        top: -25px;
+    }
+    a {
+        display: none;
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        transition: .5s ease-in-out;
+    }
+    a:hover {
+        color: red;
+        text-shadow: 0px 0px 10px red;
+    }
+    .a4 {
+        position: absolute;
+        left: 330px;
+    }
+    .a3 {
+        position: absolute;
+        left: 190px;
+    }
+    .a2 {
+        position: absolute;
+        left: 100px;
+    }
+    .img-2 {
+        width: 300px;
+        position: absolute;
+        top: -10px;
+        left: 30px;
+        transition: .3s ease-out;
+        animation: r1 3s ease-in-out;
+        transform: scale(0.9);
+    }
+    .img-2:hover {
+        transform: scale(1);
+        filter: drop-shadow(2px 2px 10px rgb(255, 183, 10));
+    }
+    .b2 {
+        position: relative;
+        left: 80px;
+        top: 280px;
+        transform: scale(0.9);
+    }
+    #t2 {
+        color: rgb(255, 183, 10);
+        font-size: 40px;
+        text-shadow: 0px 0px 10px rgb(255, 183, 10);
+        animation: r2 3s ease-in-out;
+    }
+    #t3 {
+        width: 250px;
+        font-size: 20px;
+        color: rgb(255, 183, 10);
+        text-shadow: 0px 0px 10px rgb(255, 183, 10);
+        animation: r3 3s ease-in-out;
+    }
+    .button-1 {
+        padding: 15px 60px;
+        font-size: 28px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(255, 183, 10);
+        background-color: rgb(255, 183, 10);
+        color: white;
+        position: absolute;
+        left: 100px;
+        transition: .3s ease-in-out;
+        animation: r4 3s ease-in-out;
+        transform: scale(0.8);
+    }
+    .button-1:hover {
+        transform: scale(0.9);
+        filter: drop-shadow(2px 2px 10px rgb(255, 183, 10));
+    }
+    .button-1:active {
+        transform: scale(1.2);
+    }
+    @keyframes r1 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes r2 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes r3 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes r4 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
+@media  only  screen and (max-width: 300px) {
+    body {
+        background-image: url(img/IMG-20250320-WA0006.jpg);
+        background-size: cover;
+        overflow-x: hidden;
+        min-width: 200px; /* الحد الأدنى للعرض */
+        max-width: 500px; /* الحد الأقصى للعرض */
+        min-height: 100px; /* الحد الأدنى للارتفاع */
+        max-height: 300px; /* الحد الأقصى للارتفاع */
+    }
+    .b1 {
+        position: relative;
+        top: 10px;
+        left: 20px;
+    }
+    #t1 {
+        color: white;
+        font-size: 15px;
+        text-shadow: 0px 0px 10px white;
+        position: absolute;
+        left: 50px;
+        top: 10px;
+    }
+    #t1:hover {
+        color: rgb(255, 183, 10);
+        text-shadow: 0px 0px 10px rgb(255, 183, 10);
+    }
+    .img-1 {
+        width: 50px;
+    }
+    .icon {
+        width: 40px;
+        position: absolute;
+        top: 28px;
+        left: 430px;
+    }
+    .icon:hover {
+        transform: scale(1.1);
+    }
+    .icon:active {
+        transform: scale(1.2);
+    }
+    header {
+        display: none;
+        position: relative;
+        left: 670px;
+        top: -25px;
+    }
+    a {
+        display: none;
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        transition: .5s ease-in-out;
+    }
+    a:hover {
+        color: red;
+        text-shadow: 0px 0px 10px red;
+    }
+    .a4 {
+        position: absolute;
+        left: 330px;
+    }
+    .a3 {
+        position: absolute;
+        left: 190px;
+    }
+    .a2 {
+        position: absolute;
+        left: 100px;
+    }
+    .img-2 {
+        width: 300px;
+        position: absolute;
+        top: -10px;
+        left: 30px;
+        transition: .3s ease-out;
+        animation: r1 3s ease-in-out;
+        transform: scale(0.9);
+    }
+    .img-2:hover {
+        transform: scale(1);
+        filter: drop-shadow(2px 2px 10px rgb(255, 183, 10));
+    }
+    .b2 {
+        position: relative;
+        left: 80px;
+        top: 280px;
+        transform: scale(0.9);
+    }
+    #t2 {
+        color: rgb(255, 183, 10);
+        font-size: 40px;
+        text-shadow: 0px 0px 10px rgb(255, 183, 10);
+        animation: r2 3s ease-in-out;
+    }
+    #t3 {
+        width: 250px;
+        font-size: 20px;
+        color: rgb(255, 183, 10);
+        text-shadow: 0px 0px 10px rgb(255, 183, 10);
+        animation: r3 3s ease-in-out;
+    }
+    .button-1 {
+        padding: 15px 60px;
+        font-size: 28px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(255, 183, 10);
+        background-color: rgb(255, 183, 10);
+        color: white;
+        position: absolute;
+        left: 100px;
+        transition: .3s ease-in-out;
+        animation: r4 3s ease-in-out;
+        transform: scale(0.8);
+    }
+    .button-1:hover {
+        transform: scale(0.9);
+        filter: drop-shadow(2px 2px 10px rgb(255, 183, 10));
+    }
+    .button-1:active {
+        transform: scale(1.2);
+    }
+    @keyframes r1 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes r2 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes r3 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes r4 {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
